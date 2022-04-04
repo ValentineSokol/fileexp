@@ -1,0 +1,24 @@
+{
+  "name": "msdos-file-explorer-cli",
+  "version": "1.0.0",
+  "description": "An MS-DOS themed file explorer, written in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valentine Sokolovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cliui": "^7.0.4",
+    "i": "^0.3.7",
+    "npm": "^8.6.0",
+    "open": "^8.4.0",
+    "terminal-kit": "^2.4.0",
+    "yargs": "^17.4.0"
+  },
+  "bin": {
+    "fileexp": "./index.js"
+  }
+}
